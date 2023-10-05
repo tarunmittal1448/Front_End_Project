@@ -61,3 +61,22 @@ button[type="submit"]:hover{
 body{
     background-color: #00000091;
 }
+
+.main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main img{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.main p{
+    margin-left: -7vw;
+    margin-top: 5vw;
+}
