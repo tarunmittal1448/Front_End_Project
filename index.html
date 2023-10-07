@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Movie Search Bar</title>
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid nav">
+          <a class="navbar-brand"><h4 style="font-family: 'Poppins', sans-serif;">Fun Flix</h4></a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Write up the movie name" aria-label="Search" id="name" style="width: 300px;">
+            <button class="btn btn-outline-success" type="submit" id="s"><h4 style="font-family: 'Poppins', sans-serif;">Search</h4></button>
+          </form>
+        </div>
+      </nav>
+    <!-- <div class="container">
         <div class="nav">
             <ul>
                 <li>
@@ -23,8 +33,8 @@
         </div>
         <div class="search">
             <form>
-                <input type="text" id="search" placeholder="Write up the movie name">
-                <button type="submit">Submit</button>
+                <input type="text" id="name" placeholder="Write up the movie name">
+                <button type="submit" id="s">Submit</button>
             </form>
         </div>
         <div class="sign">
@@ -37,14 +47,13 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <div class="main">
-        <img src="https://jooinn.com/images/close-up-portrait-of-lion.jpg" alt="" id="image">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste odit commodi expedita praesentium itaque? Vel ad praesentium nisi porro commodi qui quisquam odio beatae. Praesentium dolore eius exercitationem id ipsa ratione consequuntur aperiam facilis quibusdam veritatis harum, neque numquam, nostrum laudantium expedita maiores. Tempora quo cupiditate quisquam sunt nobis consequuntur porro, enim voluptatum magni, excepturi quia qui nulla laboriosam! Quis eum fuga voluptate voluptates voluptatem temporibus, vel quae magni reprehenderit quasi, saepe corporis ratione dignissimos dolorum. Saepe, mollitia omnis. Eius cumque commodi fugiat atque facere aliquam accusamus iure! Beatae excepturi natus provident nam quaerat nisi libero qui at mollitia recusandae ipsum, ducimus laudantium minus ut sit, earum rem. Culpa tempore doloremque similique totam cum qui dicta repudiandae ullam distinctio porro doloribus odio, veniam consectetur quo consequatur commodi, et nemo, architecto eius quibusdam vitae sint dignissimos veritatis. Neque vero voluptate, explicabo quam obcaecati facere quaerat iste quibusdam fugiat, ipsa velit earum? At voluptate nihil magni porro aliquam sapiente quos est maxime voluptates molestias ullam minus eaque, nobis incidunt iste eum rem quasi vel. Esse quos, eum dolorem numquam est a fugiat, accusantium sunt sed, eaque rem quam dignissimos ab quas at consequatur odit et. Architecto consequatur sequi perferendis, eligendi quae error.</p>
+        <div id="img"></div>
     </div>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 
 </body>
